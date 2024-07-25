@@ -1,0 +1,143 @@
+.basic-info {
+   margin: 0 auto;
+   max-width: 1570px;
+   padding: 0 106px;
+}
+
+.basic-info__grid {
+   display: grid;
+   grid-template-columns: 340px 1fr;
+   gap: 218px;
+   align-items: start;
+}
+
+.basic-info__links {
+   display: grid;
+   justify-items: start;
+   margin-left: -12px;
+}
+
+.basic-info__link {
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 120%;
+   color: #405877;
+   display: block;
+   padding: 8px 12px;
+   border-radius: 20px;
+   text-decoration: none;
+}
+
+.basic-info__link._active,
+.basic-info__link:hover {
+   background-color: #fff;
+}
+
+.basic-info__content {}
+
+.basic-info__info-block {
+   display: grid;
+   gap: 14px;
+   margin-bottom: 55px;
+}
+
+.basic-info__row {
+   display: grid;
+   grid-template-columns: 270px 1fr;
+   gap: 50px;
+}
+
+.basic-info__name {
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 137%;
+   color: #030303;
+}
+
+.basic-info__value {
+   font-weight: 600;
+   font-size: 16px;
+   line-height: 137%;
+   color: #000;
+}
+
+.documentation-link.documentation-link_basic {
+   display: flex;
+   align-items: center;
+   gap: 14px;
+}
+
+.documentation-link.documentation-link_basic:hover {
+   text-decoration: underline;
+}
+
+.documentation-link.documentation-link_basic::before {
+   display: block;
+   position: static;
+}
+
+.basic-info__documents {
+   max-width: 640px;
+}
+
+.basic-info__documents .documentation__content {
+   min-width: 0;
+}
+
+.basic-info__text-content h2 {
+   font-weight: 600;
+   font-size: 20px;
+   color: #405877;
+   margin-bottom: 20px;
+
+}
+
+.basic-info__text-content p {
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 150%;
+   color: #000;
+   margin-bottom: 20px;
+}
+
+.basic-info__text-content ul {
+   padding-left: 25px;
+}
+
+.basic-info__text-content {}
+
+@media (max-width:1399.98px) {
+   .basic-info__grid {
+      gap: 100px;
+   }
+
+   .basic-info__row {
+      grid-template-columns: 210px 1fr;
+      gap: 14px;
+   }
+}
+
+@media (max-width:1199.98px) {
+   .basic-info {
+      padding: 0 20px;
+   }
+}
+
+@media (max-width:991.98px) {
+   .basic-info__grid {
+      display: flex;
+      flex-direction: column-reverse;
+      gap: 50px;
+   }
+}
+
+@media (max-width:767.98px) {
+   .basic-info__row {
+      grid-template-columns: 1fr;
+      gap: 5px;
+   }
+
+   .basic-info__info-block {
+      margin-bottom: 25px;
+   }
+}

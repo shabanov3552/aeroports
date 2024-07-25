@@ -1,0 +1,174 @@
+.top-menu__list{
+    max-width: 555px;
+}
+.top-menu__link{
+    font-size: 14px;
+    opacity: 0.7;
+    color: #ffffff;
+}
+.top-menu__link:hover{
+    opacity: 0.9;
+}
+.top-menu__icon{
+    fill: #ffffff;
+}
+
+.right-menu{
+    max-width: 330px;
+}
+.right-menu__phone-link{
+    font-size: 22px;
+    color: #ffffff;
+}
+.right-menu__phone-link:hover{
+    opacity: 0.7;
+}
+.main-menu__link{
+    color: #ffffff;
+}
+.main-menu__line{
+    border-bottom: 2px solid #ffffff;
+}
+.main-menu__icon{
+    fill: #ffffff;
+}
+.footer__info-content{
+    font-size: 14px;
+    color: #525252;
+}
+.footer__block{
+    max-width: 900px;
+}
+@media (min-width: 1100px) and (max-width: 1599.98px){
+    .footer__block{
+        max-width: 542px;
+    }
+    .footer__content_bottom{
+        position: relative;
+        left: 305px;
+        margin-top: 10px;
+    }
+}
+@media (min-width: 982px) and (max-width: 1099.98px){
+    .top-menu__list{
+        width: 100%;
+        max-width: 350px;
+    }
+    .hamburger{
+        display: none;
+    }
+}
+@media (min-width: 680px) and (max-width: 899.98px){
+    .top-menu__list {
+        display: none;
+}
+    .main-menu{
+        display: none;
+    }
+    .menu-mobile__block{
+        padding: 0px 170px 27px 115px;
+    }
+    .mar__container{
+        display: none;
+    }
+    .airport__block{
+        width: 304px;
+        height: 183px;
+    }
+   .airport{
+       padding: 0;
+   }
+   .heder__logo-img{
+    width: 322px;
+    height: 106px;
+   }
+   .heder__container{
+       padding: 0;
+   }
+   .heder__logo{
+    margin-top: 55px;
+   }
+   .menu-mobile{
+    display: block;
+}
+    .hamburger{
+    display: block;
+}
+   .heder__logo-img {
+       position: relative;
+   }
+   .right-menu__phone{
+    position: absolute;
+    right: 38px;
+    top: 28px;
+    margin: 0;
+   }
+   .right-menu{
+       max-width: none;
+   }
+   .airport{
+    margin-top: 42px;
+   }
+   .footer__wrapper{
+    flex-flow: wrap;
+       justify-content: center;
+   }
+   .footer__container{
+       margin: 0;
+       padding: 0;
+   }
+   .footer__phon{
+       margin: 0;
+   }
+   .footer__info{
+       flex-flow: column;
+       max-width: 100%;
+   }
+   .footer__info-content{
+       margin: 0;
+       margin-bottom: 16px;
+       max-width: none;
+       text-align: center;
+   }
+   .footer__block{
+       flex-flow: column;
+       margin-top: 20px;
+   }
+  .footer__box-img{
+        justify-content: center;
+        margin-bottom: 27px;
+        margin-top: 23px;
+  }
+  .footer{
+      padding: 0;
+      padding-top: 36px;
+      padding-bottom: 45px;
+      justify-content: center;
+  }
+}    
+
+
+/********************airports-detail *****************/
+
+.phone_size{
+    font-size: 18px;
+}
+.top-menu__link_opaciti{
+    font-size: 14px;
+    color: #ffffff;
+}
+.bg__wrapper{
+    background: linear-gradient(to bottom, #02428a , #10599d , #1b66a7 , #2878b3 20%, #50acd3 35%, #95cfe5 60%, #abdfed 75%, #eef1f4 100%);
+    background-size: 100% 503px;
+    background-repeat: no-repeat;
+    background-color: #eef1f4;
+}
+.heder__wrapper{
+    background: linear-gradient(to bottom, #02428a , #10599d , #1b66a7 , #2878b3 20%, #50acd3 35%, #95cfe5 60%, #abdfed 75%, #eef1f4 100%);
+}
+.main-menu__link_size{
+    font-size: 18px;
+}
+.logo-text{
+    display: none;
+}
